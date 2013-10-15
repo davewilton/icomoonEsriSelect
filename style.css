@@ -40,10 +40,10 @@ you can use the generic selector below, but it's slower:
 }
 
 .icon-select-front:before {
-	content: "\e002";
+	content: "\e001";
 }
 .icon-select-back:before {
-	content: "\e001";
+	content: "\e000";
 }
 .icon-select:before {
     content: "\e001";
@@ -51,6 +51,6 @@ you can use the generic selector below, but it's slower:
     margin-right: -1em;
 }
 .icon-select:after {
-	content: "\e002";
+	content: "\e000";
     color: black;
 }
